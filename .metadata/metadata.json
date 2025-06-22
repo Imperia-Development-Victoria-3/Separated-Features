@@ -1,0 +1,13 @@
+{
+  "name" : "Imperia Roleplay Separated FEATURE_NAME",
+  "id" : "",
+  "version" : "0.10.0",
+  "supported_game_version" : "1.8.*",
+  "picture" : "thumbnail.png",
+  "short_description" : "",
+  "tags" : ["balance", "events", "expansion", "fixes", "gameplay", "graphics", "journal_entries", "map", "technologies", "utilities"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
