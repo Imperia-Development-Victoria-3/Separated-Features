@@ -1,0 +1,28 @@
+﻿on_imperia_monthly_pulse_country = {
+	effect = {
+		# Frankfurt Parliament variable cleanup
+		# Done here to maintain stability in inter-JE functions
+		if = {
+			limit = {
+				imperia_frankfurt_parliament_is_in_session = no
+				# And has at least one of the following variables; meaning they participated in the Parliament
+				OR = {
+					has_variable = frankfurt_parliament_voted_republic
+					has_variable = frankfurt_parliament_voted_monarchy
+					has_variable = frankfurt_parliament_voted_wealth_suffrage
+					has_variable = frankfurt_parliament_voted_universal_suffrage
+					has_variable = frankfurt_parliament_voted_presidential
+					has_variable = frankfurt_parliament_voted_parliamentary
+				}
+				# And the German Revolt is not happening
+				any_diplomatic_play = {
+					count = 0
+					is_diplomatic_play_type = dp_imperia_gutter_german_revolt
+				}
+			}
+			# Assume the thing is over, and variables havent been cleaned up
+			# So clean them up
+			imperia_frankfurt_parliament_clean_variables = yes
+		}
+	}
+}

@@ -1,0 +1,54 @@
+﻿nobody_wants_gutter_crown = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/default.dds"
+	notification_type = toast
+	days = 30
+}
+imperia_gutter_german_revolt_began = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/revolution.dds"
+	notification_type = feed
+	days = 60
+}
+
+imperia_gutter_german_revolt_king_won = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/influence.dds"
+	notification_type = feed
+	days = 60
+}
+
+imperia_gutter_german_revolt_major_won = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/influence.dds"
+	notification_type = feed
+	days = 60
+}
+
+imperia_frankfurt_parliament_vote_happened = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/influence.dds"
+	notification_type = toast
+	days = 60
+}
+
+imperia_gutter_germany_fizzled_out = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/influence.dds"
+	notification_type = feed
+	days = 60
+}
+
+imperia_gutter_germany_consolidated = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/influence.dds"
+	notification_type = feed
+	days = 60
+}
+
+gutter_german_swayed_x_countries = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/influence.dds"
+	notification_type = toast
+	days = 60
+}

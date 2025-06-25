@@ -1,0 +1,28 @@
+﻿# Root = The applicable country
+# scope:technology = The technology type they just acquired
+on_acquired_technology = {
+	on_actions = {
+		on_imperia_acquired_technology
+	}
+}
+
+# Root = Diplomatic Play
+on_diplo_play_back_down = {
+	on_actions = {
+		on_imperia_diplo_play_back_down
+	}
+}
+
+# Root = Country
+on_monthly_pulse_country = {
+	on_actions = {
+		on_imperia_monthly_pulse_country
+	}
+}
+
+# Root = Country
+on_capitulation = {
+	on_actions = {
+		on_imperia_capitulation
+	}
+}
