@@ -1,0 +1,9 @@
+﻿ infamy_rebalance.13.t: "Release of [SCOPE.sCountry('target').GetNameNoFlag]"
+ infamy_rebalance.13.d: "We have released [SCOPE.sCountry('target').GetNameNoFlag] from our grasp. They are now independent from us. This have greatly reduced our infamy in the eyes of the great Powers!"
+ infamy_rebalance.13.f: "FREEDOM!"
+ infamy_rebalance.13.a: "Begone!"
+
+ infamy_rebalance.14.t: "[SCOPE.sCountry('target').GetAdjectiveNoFlag] Autonomy"
+ infamy_rebalance.14.d: "We have released [SCOPE.sCountry('target').GetNameNoFlag] as one of our subjects. This will reduce our infamy in the eyes of the Great Powers, but not as much as it would have, had we released them completely from our grasp..."
+ infamy_rebalance.14.f: "Freedom?"
+ infamy_rebalance.14.a: "You better behave!"
