@@ -13,4 +13,5 @@
 			remove_variable ?= ai_disabled_timer
 			set_variable = detected_player
 		}
+	}
 }
