@@ -1,0 +1,7 @@
+# Root = Diplomatic Play
+on_diplo_play_start = {
+	on_actions = {
+		on_imperia_true_neutral_diplo_play_start
+		on_imperia_taiping_rebellion_diplo_play_start
+	}
+}

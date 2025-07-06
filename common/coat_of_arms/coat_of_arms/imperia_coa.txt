@@ -1,0 +1,450 @@
+﻿ZHI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {42 82 122}
+	
+	textured_emblem = {
+		texture = "ZHI.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHI_republic_kmt = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {42 82 122}
+	
+	textured_emblem = {
+		texture = "CHI_kmt.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+FRS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {42 82 122}
+	
+	textured_emblem = {
+		texture = "FRS.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+FRS_jap = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {42 82 122}
+	
+	textured_emblem = {
+		texture = "FRS_jap.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+FRS_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {42 82 122}
+	
+	textured_emblem = {
+		texture = "FRS_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+HNA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {252 4 12}
+	
+	textured_emblem = {
+		texture = "HNA.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+HNA_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {252 4 12}
+	
+	textured_emblem = {
+		texture = "HNA_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+XIB = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {236 28 36}
+	
+	textured_emblem = {
+		texture = "XIB.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+XIB_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {236 28 36}
+	
+	textured_emblem = {
+		texture = "XIB_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SIH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {36 180 76}
+	
+	textured_emblem = {
+		texture = "SIH.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SIH_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {36 180 76}
+	
+	textured_emblem = {
+		texture = "SIH_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SIH_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {36 180 76}
+	
+	textured_emblem = {
+		texture = "SIH_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+	
+
+YUE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "YUE.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "YUE_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+YUE_gbr = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "YUE_gbr.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+YUE_por = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "YUE_por.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+YUE_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "YUE_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MCH_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "MCH_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+MCH_rus = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "MCH_rus.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+MCH_jap = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "MCH_jap.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MGL_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "MGL_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+MGL_rus = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "MGL_rus.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+GEO_rus = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "GEO_rus.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+GEO_ottoman = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "GEO_ottoman.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}		
+}
+
+BUL_tur = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "BUL_tur.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+KUR_tur = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "KUR_tur.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+FIN_pu_RUS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "FIN_pu_RUS.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}		
+}
+
+FIN_subject_RUS = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "FIN_subject_RUS.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}		
+}
+
+XIN_rus = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "XIN_rus.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+XIN_qing = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "XIN_qing.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}		
+}
+
+RUS_imperial_constitutional = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "RUS_imperial_constitutional.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+POL_subject_rus = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "POL_subject_rus.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+POL_pu_rus = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "POL_pu_rus.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+TUR_ottoman_1844 = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "crescent_star_ottomans.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }	
+	}
+}
+
+MON_ottoman = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "MON_ottoman.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+ROM_ottoman = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "ROM_ottoman.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+GRE_ottoman = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {251 226 20}
+	
+	textured_emblem = {
+		texture = "GRE_ottoman.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}	
+}
+
+GBR_republican_variant_1 = {
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "blue"
+	color2 = "green"
+	color3 = "white"
+	color4 = "red"
+	
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = color3
+		color2 = color4
+	}
+	colored_emblem = {
+		texture = "ce_cross_england_fimbriated.dds"
+		color1 = color3
+		color2 = color4
+	}
+}
+
+GBR_republican_variant_2 = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+}
+
+
+GBR_republican_variant_3 = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+}
+
+GBR_republican_variant_4 = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+	}	
+	
+	colored_emblem = {
+		texture = "ce_fess_fimbriated.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+}
+
+GBR_republican_variant_5 = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "blue"
+	}	
+	
+	colored_emblem = {
+		texture = "ce_fess_fimbriated.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+}
