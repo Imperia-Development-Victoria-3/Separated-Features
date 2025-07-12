@@ -1,0 +1,21 @@
+﻿# Root = Diplomatic Play
+on_imperia_true_neutral_diplo_play_start = {
+	effect = {
+		if = {
+			limit = {
+				#If a true neutral country is the target...
+				target = {
+					has_modifier = imperia_true_neutral
+				}
+			}
+			#Fire an event for the attacker after 1 days (for [pdx-spaghetti-code] reasons)
+			initiator = {
+				trigger_event = {
+					id = imperia_neutrality_events.1
+					days = 1
+				}
+			}
+		}
+	}
+}
+
