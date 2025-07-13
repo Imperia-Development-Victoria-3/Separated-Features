@@ -1,0 +1,6 @@
+﻿# Root = Country
+on_monthly_pulse_country = {
+	on_actions = {
+		on_imperia_monthly_pulse_country
+	}
+}
