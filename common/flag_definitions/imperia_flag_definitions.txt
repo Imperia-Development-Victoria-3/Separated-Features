@@ -1,0 +1,453 @@
+﻿@coa_width = 768
+@coa_height = 512
+@canton_scale_cross_x = @[ ( 333 / coa_width ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / coa_height ) + 0.001 ]
+
+CHI = {	# China
+	flag_definition = {
+		coa = CHI_han_empire
+		coa_with_overlord_canton = CHI_han_empire
+		priority = 5
+		trigger = {
+			scope:actor ?= {
+				NOT = { country_has_primary_culture = cu:manchu }
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = CHI_absolute_monarchy
+		subject_canton = CHI
+		coa_with_overlord_canton = CHI_subject
+		allow_overlord_canton = yes
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CHI_absolute_monarchy
+		subject_canton = CHI_absolute_monarchy
+		coa_with_overlord_canton = CHI_subject
+		allow_overlord_canton = yes
+		priority = 20
+		trigger = {
+			scope:actor ?= {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				country_has_primary_culture = cu:manchu
+			}
+		}
+	}
+	flag_definition = {
+		coa = CHI_republic
+		subject_canton = CHI_republic
+		allow_overlord_canton = yes
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CHI_republic_kmt
+		subject_canton = CHI_dictatorship
+		allow_overlord_canton = yes
+		priority = 30
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+				has_variable = china_kmt_republic
+			}
+		}
+	}
+	flag_definition = {
+		coa = CHI_dictatorship
+		subject_canton = CHI_dictatorship
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CHI_theocracy
+		subject_canton = CHI_theocracy
+		priority = 20
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CHI_communist
+		priority = 1500
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ZHI = {
+	flag_definition = {
+		coa = ZHI
+		subject_canton = ZHI
+		priority = 100
+	}
+}
+
+FRS = {
+	flag_definition = {
+		coa = FRS
+		subject_canton = FRS
+		priority = 100
+	}
+	
+	flag_definition = {
+		coa = FRS_jap
+		priority = 200
+		trigger = {
+			exists = c:JAP
+			exists = c:FRS
+			c:FRS = {
+				is_subject_of = c:JAP
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = FRS_qing
+		priority = 200
+		trigger = {
+			exists = c:CHI
+			exists = c:FRS
+			c:FRS = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+}
+
+HNA = {
+	flag_definition = {
+		coa = HNA
+		subject_canton = HNA
+		priority = 100
+	}
+	
+	flag_definition = {
+		coa = HNA_qing
+		priority = 200
+		trigger = {
+			exists = c:CHI
+			exists = c:HNA
+			c:HNA = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+}
+
+XIB = {
+	flag_definition = {
+		coa = XIB
+		subject_canton = XIB
+		priority = 100
+	}
+	
+	flag_definition = {
+		coa = XIB_qing
+		priority = 200
+		trigger = {
+			exists = c:CHI
+			exists = c:XIB
+			c:XIB = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+}
+
+SIH = {
+	flag_definition = {
+		coa = SIH
+		subject_canton = SIH
+		priority = 200
+		trigger = {
+			NOT = {
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
+			}
+		}
+	}
+	flag_definition = {
+		coa = SIH_republic
+		subject_canton = SIH_republic
+		priority = 100
+		trigger = {
+			OR = {
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
+			}
+			NOT = {
+				coa_def_subject_trigger = yes
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = SIH_qing
+		priority = 300
+		trigger = {
+			exists = c:CHI
+			exists = c:SIH
+			c:SIH = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+}
+
+YUE = {
+	flag_definition = {
+		coa = YUE
+		subject_canton = YUE
+		priority = 100
+		trigger = {
+			NOT = {
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = YUE_qing
+		priority = 200
+		trigger = {
+			exists = c:CHI
+			exists = c:YUE
+			c:YUE = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = YUE_gbr
+		priority = 200
+		trigger = {
+			exists = c:GBR
+			exists = c:YUE
+			c:YUE = {
+				is_subject_of = c:GBR
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = YUE_por
+		priority = 200
+		trigger = {
+			exists = c:POR
+			exists = c:YUE
+			c:YUE = {
+				is_subject_of = c:POR
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = YUE_republic
+		subject_canton = YUE_republic
+		priority = 200
+		trigger = {
+			OR = {
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
+			}
+			NOT = {
+				coa_def_subject_trigger = yes
+			}
+		}
+	}
+}
+
+MCH = {	# Manchuria
+	flag_definition = {
+		coa = MCH
+		allow_overlord_canton = no
+		subject_canton = MCH
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = MCH_qing
+		priority = 2
+		trigger = {
+			exists = c:CHI
+			exists = c:MCH
+			c:MCH = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = MCH_jap
+		priority = 2
+		trigger = {
+			exists = c:JAP
+			exists = c:MCH
+			c:MCH = {
+				is_subject_of = c:JAP
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = MCH_rus
+		priority = 2
+		trigger = {
+			exists = c:RUS
+			exists = c:MCH
+			c:MCH = {
+				is_subject_of = c:RUS
+			}
+		}
+	}
+}
+
+MGL = {	# Mongolia
+	flag_definition = {
+		coa = MGL
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = MGL_subject
+		subject_canton = MGL
+		priority = 1
+	}
+	flag_definition = {
+		coa = MGL_qing
+		priority = 200
+		trigger = {
+			exists = c:CHI
+			exists = c:MGL
+			c:MGL = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = MGL_rus
+		priority = 200
+		trigger = {
+			exists = c:RUS
+			exists = c:MGL
+			c:MGL = {
+				is_subject_of = c:RUS
+			}
+		}
+	}
+	flag_definition = {
+		coa = MGL_republic
+		subject_canton = MGL_republic
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MGL_communist
+		priority = 1500
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+XIN = {	# Xinjiang
+	flag_definition = {
+		coa = XIN
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = XIN_subject
+		subject_canton = XIN
+		priority = 1
+	}
+	flag_definition = {
+		coa = XIN_republic
+		subject_canton = XIN_republic
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = XIN_rus
+		priority = 100
+		trigger = {
+			exists = c:RUS
+			exists = c:XIN
+			c:XIN = {
+				is_subject_of = c:RUS
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = XIN_qing
+		priority = 100
+		trigger = {
+			exists = c:CHI
+			exists = c:XIN
+			c:XIN = {
+				is_subject_of = c:CHI
+			}
+			c:CHI = {
+				has_law = law_type:law_monarchy
+				NOT = {
+					has_variable = china_han_empire
+				}
+			}
+		}
+	}
+}
