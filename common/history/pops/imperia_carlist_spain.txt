@@ -1,0 +1,46 @@
+﻿POPS = {
+	s:STATE_NAVARRA = {
+		region_state:CRS = {
+			create_pop = {
+				culture = spanish
+				size = 579200
+			}
+			create_pop = {
+				culture = catalan
+				size = 32220
+			}
+			create_pop = {
+				culture = basque
+				size = 700060
+			}
+		}
+	}
+	s:STATE_ARAGON = {
+		region_state:CRS = {
+			create_pop = {
+				culture = spanish
+				size = 401200
+			}
+			create_pop = {
+				culture = basque
+				size = 100008
+			}
+			create_pop = {
+				culture = catalan
+				size = 77996
+			}
+		}
+	}
+	s:STATE_CATALONIA = {
+		region_state:CRS = {
+			create_pop = {
+				culture = catalan
+				size = 704308
+			}
+			create_pop = {
+				culture = spanish
+				size = 316804
+			}
+		}
+	}
+}
