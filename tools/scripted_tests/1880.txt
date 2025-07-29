@@ -1,0 +1,13 @@
+last_date = "1881.1.1"
+
+tests = {
+	1880_reached = {
+		acceptable_fail_rate = 0.0
+		success = {
+			always = no
+		}
+		fail = {
+			game_date >= "1880.1.1"
+		}
+	}
+}
