@@ -1,0 +1,15 @@
+﻿# Root = Releasing Country
+# scope:target = Released Country
+on_country_released_as_independent = {
+	on_actions = {
+		on_imperia_country_released_as_independent
+	}
+}
+
+# Root = Releasing Country
+# scope:target = Released Country
+on_country_released_as_own_subject = {
+	on_actions = {
+		on_imperia_country_released_as_own_subject
+	}
+}
