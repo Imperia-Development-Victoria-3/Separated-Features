@@ -1,0 +1,8 @@
+﻿############
+### MISC ###
+############
+imperia_ai_disabled = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	country_disable_privatization_bool = yes
+	country_all_buildings_protected_bool = yes
+}
